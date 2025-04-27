@@ -11,10 +11,10 @@ export default function Footer() {
                 <div className="absolute inset-0 bg-[#FF5500] skew-x-12 transform"></div>
                 <span className="relative z-10 flex items-center justify-center h-full font-bold text-sm">71</span>
               </div>
-              <span className="font-bold">New SynergyLab</span>
+              <span className="font-bold">New Synergy Lab</span>
             </div>
             <p className="text-gray-400 text-sm">
-              A collective of elite AI freelancers delivering cutting-edge solutions for businesses worldwide.
+              A collective of AI/Data/DevOps experts delivering cutting-edge solutions for businesses worldwide.
             </p>
           </div>
 
@@ -108,7 +108,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-[#FF5500]/20 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 text-sm">© 2025 New SynergyLab. All rights reserved.</p>
+          <p className="text-gray-400 text-sm">© 2025 New Synergy Lab. All rights reserved.</p>
           <div className="flex flex-wrap gap-4 mt-4 md:mt-0">
             <Link href="/privacy" className="text-gray-400 hover:text-[#FF5500] text-sm">
               Privacy Policy

@@ -2,7 +2,7 @@
 
 import { useEffect, useRef } from "react"
 import type { Counter } from "@/data/counters"
-import anime from "animejs"
+import * as anime from 'animejs'
 
 interface CountersSectionProps {
   counters: Counter[]

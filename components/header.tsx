@@ -30,7 +30,7 @@ export default function Header() {
             <div className="absolute inset-0 bg-[#FF5500] skew-x-12 transform"></div>
             <span className="relative z-10 flex items-center justify-center h-full font-bold">71</span>
           </div>
-          <span className="font-bold text-xl">New SynergyLab</span>
+          <span className="font-bold text-xl">New Synergy Lab</span>
         </Link>
 
         {/* Desktop Navigation */}

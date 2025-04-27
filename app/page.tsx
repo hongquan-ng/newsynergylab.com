@@ -12,10 +12,9 @@ import { getAllServices } from "@/data/services"
 import { generateMetadata } from "@/components/seo"
 
 export const metadata = generateMetadata({
-  title: "New SynergyLab - AI Solutions for Business",
+  title: "New Synergy Lab - AI-Native Solutions for Business",
   description:
-    "A consortium of highly experienced Software Engineers, Platform Engineers, Data Engineers, and AI/ML Scientists delivering sophisticated artificial intelligence solutions with measurable business impact.",
-  keywords: ["AI", "Machine Learning", "Data Science", "Software Engineering", "AI Solutions"],
+    "We’re a small but mighty of engineers and builders who truly believe in the mission of transforming businesses with AI-Native solution. We’re not just about the latest trends or buzzwords; we’re about crafting solutions that solve real-world problems. No hype—just clean code, clean architecture, sharp thinking, and AI that works where it matters.",
   ogImage: "/og-image.jpg",
 })
 
@@ -40,12 +39,13 @@ export default function Home() {
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <h1 className="text-5xl md:text-7xl font-bold leading-tight">
-              New <span className="text-[#FF5500]">SynergyLab</span>
+              New <span className="text-[#FF5500]">Synergy Lab</span>
             </h1>
             <p className="text-xl text-gray-300 max-w-lg">
-              <span className="text-[#FF5500]">Go AI, Go AI Native</span> - A consortium of highly experienced Software
-              Engineers, Platform Engineers, Data Engineers, and AI/ML Scientists delivering sophisticated artificial
-              intelligence solutions with measurable business impact.
+              <span className="text-[#FF5500]">Go AI, Go AI Native</span> - 
+              We’re a small but mighty of engineers and builders who truly believe in the mission of transforming businesses with AI-Native solution. 
+              We’re not just about the latest trends or buzzwords; we’re about crafting solutions that solve real-world problems. 
+              No hype—just clean code, clean architecture, sharp thinking, and AI that works where it matters.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button className="bg-[#FF5500] hover:bg-[#FF7733] text-white border-none text-lg px-8 py-6">
