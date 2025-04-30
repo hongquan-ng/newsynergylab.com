@@ -89,12 +89,12 @@ export default function Footer() {
             <Link href="/cookies" className="text-gray-400 hover:text-[#FF5500] text-sm">
               Cookie Policy
             </Link>
-            <Link href="/gdpr" className="text-gray-400 hover:text-[#FF5500] text-sm">
+            {/*<Link href="/gdpr" className="text-gray-400 hover:text-[#FF5500] text-sm">
               GDPR
             </Link>
             <Link href="/data-request" className="text-gray-400 hover:text-[#FF5500] text-sm">
               Data Request
-            </Link>
+            </Link>*/}
           </div>
         </div>
       </div>
