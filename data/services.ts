@@ -1,39 +1,43 @@
 export interface Service {
-  id: string
-  slug: string
-  title: string
-  shortDescription: string
-  fullDescription: string
-  icon: string
-  benefits: string[]
+  id: string;
+  slug: string;
+  title: string;
+  shortDescription: string;
+  fullDescription: string;
+  icon: string;
+  benefits: string[];
   features: {
-    title: string
-    description: string
-  }[]
-  caseStudyId?: string
+    title: string;
+    description: string;
+  }[];
+  caseStudyId?: string;
 }
 
 export const services: Service[] = [
   {
-    id: "ai-development",
-    slug: "ai-development",
-    title: "AI Development",
-    shortDescription: "Custom AI solutions tailored to your business needs, from concept to deployment.",
+    id: "ai-machine-learning",
+    slug: "ai-machine-learning",
+    title: "AI & Machine Learning Solutions",
+    shortDescription:
+      "Drive innovation with tailored AI solutions to solve complex business problems.",
     fullDescription:
-      "Our AI Development service provides end-to-end solutions for businesses looking to leverage artificial intelligence to solve complex problems. We work closely with you to understand your unique challenges and develop custom AI applications that deliver measurable results. From initial concept to final deployment, our team of experts handles every aspect of the development process.",
-    icon: "Zap",
+      "We help organizations harness the power of AI to solve their most pressing challenges. Our end-to-end development—from ideation to deployment—ensures your solution is not only technically sound, but strategically aligned with your business goals.",
+    icon: "Brain",
     benefits: [
-      "Accelerate business processes with intelligent automation",
-      "Gain competitive advantage through AI-powered insights",
-      "Reduce operational costs with efficient AI solutions",
-      "Improve decision-making with data-driven recommendations",
-      "Scale your operations with AI that grows with your business",
+      "Accelerate growth through intelligent automation",
+      "Make smarter decisions with AI-driven insights",
+      "Streamline operations and reduce overhead",
+      "Stay ahead of the curve with tailored AI systems",
+      "Future-proof your business with scalable AI models",
+      "Ensure regulatory compliance with AI-powered transparency",
+      "Enhance auditability with clear, traceable decision-making",
+      "Minimize legal risks with built-in data security and privacy features",
     ],
     features: [
       {
-        title: "Custom AI Model Development",
+        title: "Custom AI Model Finetuning",
         description:
-          "We build and train AI models specifically designed to address your business challenges, ensuring optimal performance for your unique use case.",
+          "We help build and train AI models specifically designed to address your business challenges, ensuring optimal performance for your unique use case.",
       },
       {
         title: "Algorithm Design & Optimization",
@@ -56,234 +60,240 @@ export const services: Service[] = [
           "Rigorous testing ensures your AI solution performs reliably and accurately across various scenarios and edge cases.",
       },
     ],
-    caseStudyId: "ai-customer-service",
+    caseStudyId: "ai-optimization",
   },
   {
-    id: "ai-integration",
-    slug: "ai-integration",
-    title: "AI Integration",
-    shortDescription: "Seamlessly integrate AI capabilities into your existing software and workflows.",
+    id: "data-engineering-analytics",
+    slug: "data-engineering-analytics",
+    title: "Data Engineering & Advanced Analytics",
+    shortDescription:
+      "Transform raw data into valuable business insights with advanced data engineering and analytics.",
     fullDescription:
-      "Our AI Integration service helps businesses incorporate artificial intelligence into their existing systems and workflows without disruption. We specialize in connecting AI models and capabilities with your current software infrastructure, ensuring smooth data flow and operation. Our approach minimizes changes to your existing processes while maximizing the benefits of AI technology.",
-    icon: "Zap",
+      "Our Data Engineering and Advanced Analytics services enable businesses to process and analyze large datasets efficiently. We provide comprehensive solutions that span data collection, cleaning, transformation, and advanced analytics, helping organizations make data-driven decisions that drive growth and innovation.",
+    icon: "Database",
     benefits: [
-      "Enhance existing systems without complete overhauls",
-      "Maintain business continuity during AI adoption",
-      "Leverage current data assets with new AI capabilities",
-      "Reduce implementation time compared to ground-up development",
-      "Minimize training requirements for staff",
+      "Enable data-driven decision making with actionable insights",
+      "Ensure high-quality, accessible data for analysis",
+      "Automate data pipelines to reduce manual efforts",
+      "Integrate disparate data sources for a unified view",
+      "Enhance forecasting and predictive capabilities",
     ],
     features: [
       {
-        title: "API Development & Integration",
+        title: "Data Pipeline Development",
         description:
-          "We create robust APIs that allow your existing systems to communicate seamlessly with new AI capabilities.",
+          "We design and implement efficient data pipelines to transform raw data into usable insights.",
       },
       {
-        title: "Legacy System Compatibility",
+        title: "Data Warehousing & Storage",
         description:
-          "Our solutions are designed to work with legacy systems, extending their functionality with modern AI capabilities.",
+          "Our solutions provide scalable storage for structured and unstructured data, optimizing access for analytics.",
       },
       {
-        title: "Workflow Automation",
+        title: "Predictive Analytics & Modeling",
         description:
-          "We identify opportunities to automate workflows by integrating AI at key decision points in your business processes.",
+          "We apply machine learning techniques to generate forecasts and identify patterns in large datasets.",
       },
       {
-        title: "Data Pipeline Engineering",
+        title: "Advanced Reporting & Dashboards",
         description:
-          "We build efficient data pipelines that connect your data sources to AI models for real-time processing and insights.",
+          "Create dynamic dashboards and custom reports that provide real-time insights and actionable intelligence.",
       },
       {
-        title: "Middleware Development",
+        title: "Data Security & Compliance",
         description:
-          "Custom middleware solutions ensure smooth communication between different systems and AI components.",
+          "We implement strong data governance frameworks to ensure data privacy, security, and regulatory compliance.",
       },
     ],
-    caseStudyId: "sentiment-analysis",
+    caseStudyId: "data-analytics",
   },
   {
-    id: "ai-platform-engineer",
-    slug: "ai-platform-engineer",
-    title: "AI Platform Engineer",
-    shortDescription: "Expert engineering to build and maintain robust AI platforms for your organization.",
+    id: "infrastructure-platform-engineering",
+    slug: "infrastructure-platform-engineering",
+    title: "Infrastructure & Platform Engineering Solutions",
+    shortDescription:
+      "Building scalable and secure infrastructures to support business growth and digital transformation.",
     fullDescription:
-      "Our AI Platform Engineering service focuses on creating the infrastructure and systems needed to support AI operations at scale. We design, build, and maintain robust platforms that enable your organization to develop, deploy, and manage AI solutions efficiently. Our engineering approach ensures your AI platform is scalable, reliable, and secure, providing a solid foundation for all your AI initiatives.",
-    icon: "Zap",
+      "We specialize in designing and deploying robust infrastructure and platform solutions that scale with your business needs. Our engineering services cover everything from cloud infrastructure to platform optimization, ensuring your technology stack is secure, efficient, and future-ready.",
+    icon: "Cloud",
     benefits: [
-      "Establish a scalable foundation for all AI initiatives",
-      "Reduce time-to-market for new AI solutions",
-      "Ensure consistent performance across AI applications",
-      "Improve resource utilization and cost efficiency",
-      "Enable seamless collaboration between data science and IT teams",
+      "Ensure high availability and reliability of your platform",
+      "Achieve seamless scalability as your business grows",
+      "Reduce infrastructure costs with optimized solutions",
+      "Enhance security and compliance with best practices",
+      "Accelerate digital transformation with modernized platforms",
     ],
     features: [
       {
-        title: "AI Infrastructure Design",
+        title: "Cloud Infrastructure Design & Deployment",
         description:
-          "We architect comprehensive infrastructure solutions optimized for AI workloads, including compute, storage, and networking components.",
+          "We design and deploy cloud-native infrastructures using leading providers like AWS, Azure, and GCP.",
       },
       {
-        title: "MLOps Implementation",
+        title: "Platform Optimization & Automation",
         description:
-          "Our MLOps practices automate the machine learning lifecycle, from development and training to deployment and monitoring.",
+          "Optimize existing platforms for performance, cost efficiency, and automation of routine tasks.",
       },
       {
-        title: "Model Serving Infrastructure",
+        title: "Security Architecture & Best Practices",
         description:
-          "We build robust systems for deploying and serving AI models in production environments with high availability and low latency.",
+          "Our engineers implement industry-standard security measures to protect your data and infrastructure.",
       },
       {
-        title: "Monitoring & Observability",
+        title: "Disaster Recovery & High Availability",
         description:
-          "Comprehensive monitoring solutions track the performance and health of your AI systems, providing early warning of potential issues.",
+          "Ensure business continuity with reliable disaster recovery plans and high-availability architecture.",
       },
       {
-        title: "Scalability Engineering",
+        title: "DevOps Integration & Automation",
         description:
-          "Our platforms are designed to scale horizontally and vertically to accommodate growing data volumes and user demands.",
+          "We integrate DevOps practices into your platform to streamline development, deployment, and monitoring.",
       },
     ],
-    caseStudyId: "predictive-maintenance",
+    caseStudyId: "cloud-optimization",
   },
   {
-    id: "data-solution",
-    slug: "data-solution",
-    title: "Data Solution",
-    shortDescription: "End-to-end data solutions that solve complex business problems with innovative approaches.",
+    id: "software-development",
+    slug: "software-development",
+    title: "Software Development",
+    shortDescription:
+      "Building scalable, reliable software solutions tailored to your business needs.",
     fullDescription:
-      "Our Data Solution service provides comprehensive approaches to solving business challenges through effective data management and utilization. We develop end-to-end solutions that cover everything from data collection and storage to processing, analysis, and visualization. Our team works to understand your specific business problems and creates custom data solutions that deliver actionable insights and measurable outcomes.",
-    icon: "Zap",
+      "We develop custom software solutions to help businesses optimize processes, improve efficiency, and drive innovation. From initial concept to final deployment, we ensure your software is designed with scalability, security, and performance in mind.",
+    icon: "Code",
     benefits: [
-      "Transform raw data into valuable business assets",
-      "Uncover hidden patterns and opportunities in your data",
-      "Make data-driven decisions with confidence",
-      "Improve operational efficiency through data optimization",
-      "Create sustainable competitive advantage through data excellence",
+      "Create high-performance, scalable software solutions",
+      "Improve operational efficiency through automation",
+      "Enhance customer experience with tailored features",
+      "Achieve better alignment with business goals",
+      "Ensure long-term support and adaptability",
     ],
     features: [
       {
-        title: "Data Strategy Development",
+        title: "Custom Software Design & Development",
         description:
-          "We help you create a comprehensive data strategy aligned with your business objectives and technology capabilities.",
+          "We create tailored software applications that address your specific business requirements.",
       },
       {
-        title: "Data Architecture Design",
+        title: "Cross-Platform Development",
         description:
-          "Our architects design scalable, efficient data architectures that support current needs and future growth.",
+          "Develop software solutions that work seamlessly across multiple platforms, including web, mobile, and desktop.",
       },
       {
-        title: "Data Integration & ETL",
+        title: "Integration with Legacy Systems",
         description:
-          "We build robust data pipelines that collect, transform, and load data from multiple sources into unified repositories.",
+          "We ensure smooth integration with your existing systems for continuity and optimized workflows.",
       },
       {
-        title: "Data Warehousing & Lakes",
+        title: "Agile Development Process",
         description:
-          "Implementation of modern data storage solutions that provide a single source of truth for your organization.",
+          "Our team uses agile development methodologies to deliver software iteratively and with flexibility.",
       },
       {
-        title: "Business Intelligence & Visualization",
+        title: "Post-Launch Support & Maintenance",
         description:
-          "We create intuitive dashboards and reports that make complex data accessible and actionable for decision-makers.",
+          "We offer continuous support to ensure your software remains secure, up-to-date, and optimized.",
       },
     ],
-    caseStudyId: "computer-vision-retail",
+    caseStudyId: "custom-software",
   },
   {
-    id: "data-platform-engineer",
-    slug: "data-platform-engineer",
-    title: "Data Platform Engineer",
-    shortDescription: "Building scalable, reliable data infrastructure to power your business intelligence.",
+    id: "offshore-development-tech-talent",
+    slug: "offshore-development-tech-talent",
+    title: "Offshore Development & Tech Talent",
+    shortDescription:
+      "Leverage global talent to scale your development teams and accelerate project timelines.",
     fullDescription:
-      "Our Data Platform Engineering service focuses on creating the technical foundation for your data operations. We design and implement robust data platforms that can ingest, process, store, and serve data at scale. Our engineers build reliable, high-performance infrastructure that supports your data scientists, analysts, and business users with the tools and capabilities they need to extract maximum value from your data assets.",
-    icon: "Zap",
+      "We connect you with highly skilled offshore developers and tech talent to expand your development capacity. Whether you're scaling quickly or need specific expertise, we help you build strong, diverse teams that meet your business requirements.",
+    icon: "Users",
     benefits: [
-      "Establish a unified platform for all data initiatives",
-      "Improve data quality, accessibility, and security",
-      "Reduce time to insight with efficient data processing",
-      "Enable self-service analytics for business users",
-      "Future-proof your data infrastructure for evolving needs",
+      "Access to a global pool of skilled developers",
+      "Reduce development costs with offshore teams",
+      "Accelerate project timelines with flexible resources",
+      "Enhance team diversity and innovation",
+      "Ensure high-quality code and productivity",
     ],
     features: [
       {
-        title: "Data Platform Architecture",
+        title: "Dedicated Offshore Teams",
         description:
-          "We design comprehensive data platforms that integrate various technologies into a cohesive, efficient system.",
+          "Build dedicated offshore teams that work as an extension of your in-house staff.",
       },
       {
-        title: "Big Data Infrastructure",
+        title: "Full-stack Development Expertise",
         description:
-          "Implementation of distributed systems capable of processing and analyzing massive datasets efficiently.",
+          "Access a wide range of technical expertise across various tech stacks and development frameworks.",
       },
       {
-        title: "Real-time Data Processing",
+        title: "Rapid Scaling & Resource Flexibility",
         description:
-          "We build streaming data pipelines that enable real-time analytics and decision-making capabilities.",
+          "Quickly scale your team up or down based on project requirements and timelines.",
       },
       {
-        title: "Data Governance Implementation",
+        title: "Project Management & Collaboration Tools",
         description:
-          "Our platforms include robust governance features to ensure data quality, security, and regulatory compliance.",
+          "We provide seamless project management tools to enhance team collaboration and transparency.",
       },
       {
-        title: "DevOps for Data",
+        title: "Continuous Support & Quality Assurance",
         description:
-          "We implement DataOps practices that bring agility and reliability to your data platform development and operations.",
+          "Ensure your offshore team is consistently delivering high-quality work with ongoing support and quality checks.",
       },
     ],
-    caseStudyId: "recommendation-engine",
+    caseStudyId: "offshore-team",
   },
   {
-    id: "data-analysis",
-    slug: "data-analysis",
-    title: "Data Analysis",
-    shortDescription: "Transform raw data into valuable business intelligence with our expert analysis.",
+    id: "headhunting-staff-augmentation",
+    slug: "headhunting-staff-augmentation",
+    title: "Headhunting & Staff Augmentation",
+    shortDescription:
+      "Find the right talent to meet your business needs with our headhunting and staff augmentation services.",
     fullDescription:
-      "Our Data Analysis service helps businesses extract meaningful insights from their data to drive better decision-making. Our team of experienced analysts combines statistical methods, domain expertise, and visualization techniques to uncover patterns, trends, and correlations in your data. We translate complex findings into clear, actionable recommendations that directly address your business questions and challenges.",
-    icon: "Zap",
+      "We provide tailored headhunting and staff augmentation solutions to help you find and onboard the best talent. Whether you need short-term contract staff or full-time employees, we ensure you have the right people for your team, on-demand.",
+    icon: "UserPlus",
     benefits: [
-      "Identify growth opportunities hidden in your data",
-      "Optimize operations based on data-driven insights",
-      "Understand customer behavior and preferences",
-      "Predict future trends and prepare accordingly",
-      "Measure and improve the ROI of business initiatives",
+      "Fill critical roles with top-tier talent",
+      "Enhance team capabilities with specialized skills",
+      "Save time in recruitment and hiring processes",
+      "Scale your team quickly with contract or full-time staff",
+      "Reduce hiring risks with vetted professionals",
     ],
     features: [
       {
-        title: "Exploratory Data Analysis",
+        title: "Tailored Talent Acquisition",
         description:
-          "We examine your data from multiple angles to discover patterns, anomalies, and potential areas for deeper investigation.",
+          "We work closely with you to understand your requirements and source the best candidates for your team.",
       },
       {
-        title: "Statistical Analysis",
+        title: "Flexible Staff Augmentation",
         description:
-          "Rigorous statistical methods validate hypotheses and ensure the reliability of our findings and recommendations.",
+          "Whether you need temporary staff or long-term hires, we offer flexibility to meet your workforce needs.",
       },
       {
-        title: "Predictive Analytics",
+        title: "Vetting & Screening Process",
         description:
-          "We develop models that forecast future outcomes based on historical data, helping you anticipate changes and trends.",
+          "Our comprehensive vetting process ensures only the best professionals are selected for your team.",
       },
       {
-        title: "Segmentation & Clustering",
+        title: "Market Intelligence & Insights",
         description:
-          "Advanced techniques identify natural groupings in your data, revealing distinct customer segments or operational patterns.",
+          "We leverage our market expertise to provide insights on industry trends and salary benchmarks.",
       },
       {
-        title: "Custom Reporting & Dashboards",
+        title: "Onboarding & Integration Support",
         description:
-          "We create tailored reports and interactive dashboards that communicate insights clearly to different stakeholders.",
+          "We help integrate new hires seamlessly into your team to ensure a smooth transition and optimal productivity.",
       },
     ],
-    caseStudyId: "fraud-detection",
+    caseStudyId: "staff-augmentation",
   },
-]
+];
 
 export function getAllServices(): Service[] {
-  return services
+  return services;
 }
 
 export function getServiceBySlug(slug: string): Service | undefined {
-  return services.find((service) => service.slug === slug)
+  return services.find((service) => service.slug === slug);
 }
+ 

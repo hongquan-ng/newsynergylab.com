@@ -1,7 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
 import type { BlogPost } from "@/data/blog-posts"
-import { formatDate } from "@/lib/utils"
 
 interface BlogPostCardProps {
   post: BlogPost
@@ -25,7 +24,7 @@ export default function BlogPostCard({ post, featured = false }: BlogPostCardPro
         </div>
         <div className="p-6">
           <div className="flex items-center gap-2 mb-3">
-            <span className="text-sm text-[#FF5500]">{formatDate(post.date)}</span>
+            <span className="text-sm text-[#FF5500]">{post.date}</span>
             <span className="text-gray-400 text-sm">•</span>
             <span className="text-gray-400 text-sm">{post.readTime} min read</span>
           </div>
