@@ -24,7 +24,7 @@ export default function PartnerCard({ partner }: PartnerCardProps) {
         <h3 className="text-xl font-bold mb-3">{partner.name}</h3>
         <p className="text-gray-300 text-sm mb-4">{partner.description}</p>
         <Button variant="link" className="text-[#FF5500] p-0 hover:text-[#FF7733]" asChild>
-          <Link href={`${partner.website}`}>
+          <Link href={`${partner.website}`} target='_blank' rel='noopener noreferrer'>
             More Details <ChevronRight className="ml-1 h-4 w-4" />
           </Link>
         </Button>

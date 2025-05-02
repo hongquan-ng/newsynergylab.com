@@ -3,6 +3,7 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/button';
 import { ChevronRight, Zap } from 'lucide-react';
 import CountersSection from '@/components/counters-section';
+import SplineLogo from '@/components/splinecode/spline-logo';
 import PartnerCard from '@/components/partner-card';
 import TeamMemberCard from '@/components/team-member-card';
 import { counters } from '@/data/counters';
@@ -13,6 +14,7 @@ import { generateMetadata } from '@/components/seo';
 
 import { IconCloudDemo } from '@/components/ui/icon-cloud';
 import { WordRotate } from '@/components/magicui/word-rotate';
+import { TechnologiesMarquee } from '@/components/technologies-marquee';
 
 export const metadata = generateMetadata({
 	title: 'New Synergy Lab - AI-Native Solutions for Business',
@@ -46,7 +48,7 @@ export default function Home() {
 							<span className='text-[#FF5500]'>
 								<WordRotate
 									words={[
-										'Possibilities',
+										'Futures',
 										'Horizons',
 										'Frontiers',
 										'Synergy',
@@ -65,12 +67,35 @@ export default function Home() {
 						</p>
 					</div>
 					<div className='relative'>
-						<IconCloudDemo />
+						<SplineLogo />
 					</div>
 				</div>
 
 				<div className='absolute bottom-0 left-0 w-full h-24 bg-gradient-to-t from-[#000814] to-transparent'></div>
 			</section>
+
+            {/* Tech Stack Section */}
+            {/*}
+            <section id='services' className='py-20 relative z-10'>
+				<div className='container mx-auto px-4'>
+					<div className='flex flex-col md:flex-row justify-between items-center mb-16'>
+						<div>
+							<h2 className='text-4xl font-bold mb-4'>
+								Our{' '}
+								<span className='text-[#FF5500]'>
+									Tech Stack
+								</span>
+							</h2>
+							<p className='text-gray-300 max-w-2xl'>
+                                Our Tech Stack Powers the AI-First Transformation—Enabling Innovation, Efficiency, and Scalable Growth
+							</p>
+						</div>
+					</div>
+
+					<TechnologiesMarquee />
+				</div>
+			</section>
+            */}
 
 			{/* Services Section */}
 			<section id='services' className='py-20 relative z-10'>
@@ -80,7 +105,7 @@ export default function Home() {
 							<h2 className='text-4xl font-bold mb-4'>
 								Our{' '}
 								<span className='text-[#FF5500]'>
-									Service Categories
+									Services
 								</span>
 							</h2>
 							<p className='text-gray-300 max-w-2xl'>
